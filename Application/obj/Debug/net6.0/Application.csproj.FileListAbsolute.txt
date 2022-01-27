@@ -1,0 +1,17 @@
+D:\APIDemoDotNet\Reactivities\Application\bin\Debug\net6.0\Application.deps.json
+D:\APIDemoDotNet\Reactivities\Application\bin\Debug\net6.0\Application.dll
+D:\APIDemoDotNet\Reactivities\Application\bin\Debug\net6.0\ref\Application.dll
+D:\APIDemoDotNet\Reactivities\Application\bin\Debug\net6.0\Application.pdb
+D:\APIDemoDotNet\Reactivities\Application\bin\Debug\net6.0\Domain.dll
+D:\APIDemoDotNet\Reactivities\Application\bin\Debug\net6.0\Persistence.dll
+D:\APIDemoDotNet\Reactivities\Application\bin\Debug\net6.0\Persistence.pdb
+D:\APIDemoDotNet\Reactivities\Application\bin\Debug\net6.0\Domain.pdb
+D:\APIDemoDotNet\Reactivities\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+D:\APIDemoDotNet\Reactivities\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\APIDemoDotNet\Reactivities\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+D:\APIDemoDotNet\Reactivities\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+D:\APIDemoDotNet\Reactivities\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+D:\APIDemoDotNet\Reactivities\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+D:\APIDemoDotNet\Reactivities\Application\obj\Debug\net6.0\Application.dll
+D:\APIDemoDotNet\Reactivities\Application\obj\Debug\net6.0\ref\Application.dll
+D:\APIDemoDotNet\Reactivities\Application\obj\Debug\net6.0\Application.pdb
