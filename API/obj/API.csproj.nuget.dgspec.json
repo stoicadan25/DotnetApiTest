@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dan\\Documents\\DotnetApiTest\\API\\API.csproj": {}
+    "D:\\APIDemoDotNet\\Reactivities\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dan\\Documents\\DotnetApiTest\\API\\API.csproj": {
+    "D:\\APIDemoDotNet\\Reactivities\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\API\\API.csproj",
+        "projectUniqueName": "D:\\APIDemoDotNet\\Reactivities\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\API\\obj\\",
+        "projectPath": "D:\\APIDemoDotNet\\Reactivities\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Work\\.nuget\\packages\\",
+        "outputPath": "D:\\APIDemoDotNet\\Reactivities\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Work\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -34,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Application\\Application.csproj"
+              "D:\\APIDemoDotNet\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "D:\\APIDemoDotNet\\Reactivities\\Application\\Application.csproj"
               }
             }
           }
@@ -53,6 +51,10 @@
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -99,24 +101,22 @@
         }
       }
     },
-    "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Application\\Application.csproj": {
+    "D:\\APIDemoDotNet\\Reactivities\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\APIDemoDotNet\\Reactivities\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Application\\obj\\",
+        "projectPath": "D:\\APIDemoDotNet\\Reactivities\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Work\\.nuget\\packages\\",
+        "outputPath": "D:\\APIDemoDotNet\\Reactivities\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Work\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -129,11 +129,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Domain\\Domain.csproj"
+              "D:\\APIDemoDotNet\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\APIDemoDotNet\\Reactivities\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Persistence\\Persistence.csproj"
+              "D:\\APIDemoDotNet\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\APIDemoDotNet\\Reactivities\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -147,6 +147,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -166,24 +172,22 @@
         }
       }
     },
-    "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Domain\\Domain.csproj": {
+    "D:\\APIDemoDotNet\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\APIDemoDotNet\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Domain\\obj\\",
+        "projectPath": "D:\\APIDemoDotNet\\Reactivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Work\\.nuget\\packages\\",
+        "outputPath": "D:\\APIDemoDotNet\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Work\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -226,24 +230,22 @@
         }
       }
     },
-    "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Persistence\\Persistence.csproj": {
+    "D:\\APIDemoDotNet\\Reactivities\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\APIDemoDotNet\\Reactivities\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Persistence\\obj\\",
+        "projectPath": "D:\\APIDemoDotNet\\Reactivities\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Work\\.nuget\\packages\\",
+        "outputPath": "D:\\APIDemoDotNet\\Reactivities\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Work\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -256,8 +258,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Dan\\Documents\\DotnetApiTest\\Domain\\Domain.csproj"
+              "D:\\APIDemoDotNet\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\APIDemoDotNet\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
@@ -272,15 +274,7 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
               "target": "Package",
               "version": "[6.0.1, )"
             }
